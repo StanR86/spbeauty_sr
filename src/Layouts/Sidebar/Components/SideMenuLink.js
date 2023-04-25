@@ -8,6 +8,7 @@ function SideMenuLink({name, isActive, icon}) {
         background-color: ${isActive ? '#E6EAEE' : '#F8FAFC'};
         padding-top: 12px;
         padding-bottom: 12px;
+        border-radius: 20px;
 
         &:hover {
             opacity: 0.8;
